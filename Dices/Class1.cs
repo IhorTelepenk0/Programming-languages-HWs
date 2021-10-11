@@ -4,5 +4,6 @@ namespace Dices
 {
     public class Class1
     {
+        
     }
 }

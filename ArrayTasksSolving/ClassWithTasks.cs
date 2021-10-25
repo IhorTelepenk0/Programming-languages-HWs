@@ -12,7 +12,7 @@ namespace ArrayTasksSolving
         {
             float[] res = new float[n];
             int resInd = -1;
-            for (int i=0;i<n;i++)
+            for (int i = 0;i < n; i++)
             {
                     resInd++;
                     res[resInd] = matrix[i,i];
@@ -22,7 +22,8 @@ namespace ArrayTasksSolving
             return res;
         }
 
-        public static float[] Diagonal2(float[,] matrix, int m, int n) // works actually the same as Diagonal1 (I am not sure what is the actual difference btw these taks)
+        // works actually the same as Diagonal1 (I am not sure what is the actual difference btw these taks)
+        public static float[] Diagonal2(float[,] matrix, int m, int n) 
         {
             float[] res = new float[m];
             int resInd = -1;
@@ -70,7 +71,8 @@ namespace ArrayTasksSolving
             columns = 1
         }*/
 
-        public static float[] Flatten(float[,] matrix, int m, int n) //task 12
+        //task 12
+        public static float[] Flatten(float[,] matrix, int m, int n) 
         {
             float[] res = new float[m * n];
             int resInd = -1;
